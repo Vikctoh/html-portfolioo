@@ -1,0 +1,143 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8;
+    color: #333;
+ }
+ 
+ h1, h2, h3 {
+    color: #222;
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .btn:hover {
+    background-color: #0056b3;
+ }
+ 
+ /* Header Section */
+ .header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
+ 
+ .header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+ }
+ 
+ .header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+ }
+ 
+ /* Movies Section */
+ .movies {
+    text-align: center;
+    padding: 40px 20px;
+ }
+ 
+ .movies h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+ }
+ 
+ .movie-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+ }
+ 
+ .movie-card:hover {
+    transform: scale(1.05);
+ }
+ 
+ .movie-card video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+ }
+ 
+ .movie-card p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+ }
+ 
+ /* Birthday Section */
+ .birthday {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fdfdfd;
+ }
+ 
+ .birthday h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+ }
+ 
+ .birthday-img {
+    width: 300px;
+    max-width: 80%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .birthday ul {
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-top: 10px;
+ }
+ 
+ .birthday ul li {
+    background-color: #007bff;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+ }
+ 
+ /* Footer Section */
+ .footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+ }
+ 
+ .footer a {
+    margin: 10px;
+    font-size: 1rem;
+ }
